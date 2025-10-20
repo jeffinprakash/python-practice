@@ -21,5 +21,29 @@ print(sum)
 n=[10, 9, 67, 88]
 for i in n:
  print("cubes of:", i, "is", str(i**3))
+
+-----------------------------------------------------------------------------------------------------------------------
+
+#3.#Separate even and odd numbers into two lists
+
+a = [12, 87, 66, 32, 99]
+b = [10, 11, 33, 74, 65]
+
+even = []
+odd = []
+
+for i in a + b:  # loop through both lists
+    if i % 2 == 0:
+        even.append(i)  # add even numbers to even list
+    else:
+        odd.append(i)   # add odd numbers to odd list
+
+print("Even numbers:", even)
+print("Odd numbers:", odd)
+
+-------------------------------------------------------------------------------------------------------------------------
+
+4
+
  
 
